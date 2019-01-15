@@ -1,7 +1,7 @@
 
 ## 《现代信息检索》 TREC 2018
 
-####本课程大作业要求：
+## 本课程大作业要求：
 
 在 TREC Precision Medicine (PM)2017 数据上进行检索竞赛。
 TREC 的 PM 评测任务就是为解决临床中的现实需求、促进医疗文献文本检索技术的发展
@@ -13,21 +13,21 @@ TREC 的 PM 评测任务就是为解决临床中的现实需求、促进医疗�
 
 ## code
 
-### clinicaltrials_xml文件夹(可以有子文件夹)是要训练的数据
+#### clinicaltrials_xml文件夹(可以有子文件夹)是要训练的数据
 
-### data 预处理后的训练数据
+#### data文件夹是预处理后的训练数据
 
-### dataprocess.py 处理训练数据clinicaltrials_xml文件夹里的文档，抽取一些主要特征，存入data文件夹，用于文档收集和建立索引
+#### dataprocess.py 处理训练数据clinicaltrials_xml文件夹里的文档，抽取一些主要特征，存入data文件夹，用于文档收集和建立索引
 
-### qurelprocess.py 处理查询文档topics2017_raw.xml，存入到topics2017.xml，用于查询
+#### qurelprocess.py 处理查询文档topics2017_raw.xml，存入到topics2017.xml，用于查询
 
-### qrels-final-trials.txt 用于结果评估
+#### qrels-final-trials.txt 用于结果评估
 
-### finally.res 相关反馈
+#### finally.res 相关反馈
 
-### finally.eval 结果评估
+#### finally.eval 结果评估
 
-### terrier-project-5.0文件夹里的runTerrier脚本最重要！！！
+#### terrier-project-5.0文件夹里的runTerrier脚本最重要！！！
 
 ## 使用方式
 
